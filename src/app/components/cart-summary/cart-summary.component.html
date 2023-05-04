@@ -1,0 +1,22 @@
+<!-- <br>
+<div *ngIf="cartItems.length>0"   class="list-group" >
+  <button type="button"  class="list-group-item list-group-item-action active" aria-current="true">
+    Sepetiniz!
+  </button>
+  <button *ngFor="let cartItem of cartItems"   type="button" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary" >{{cartItem.quantity}}</span>{{cartItem.product.productName}}<span  (click)="removeFromCart(cartItem.product)" class="badge text-bg-secondary">SİL</span></button>
+</div>
+  -->
+  <div class="my-3 p-3 bg-body rounded shadow-sm">
+    <h6 class="border-bottom pb-2 mb-0">Sepetiniz</h6>
+    <div *ngFor="let cartItem of cartItems">
+     <div class="d-flex text-body-secondary pt-3">
+      <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+        <div class="d-flex justify-content-between">
+          <h5 class="text-gray-dark"><span class="badge text-bg-secondary" >1</span> Full Name</h5>
+          <button type="button" class="btn btn-outline-danger">Sil</button>
+        </div>
+        <h6 class="d-block">kategorisi</h6>
+      </div>
+    </div>  
+  </div>
+  </div>
