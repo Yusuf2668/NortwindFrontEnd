@@ -1,7 +1,7 @@
 # Northwind
 
-https://github.com/Yusuf2668/NortwindFrontEnd/blob/main/Pictures/register.png
-
+Register Page
+![Register](https://github.com/Yusuf2668/NortwindFrontEnd/blob/main/Pictures/register.png?raw=true)
 Login Page
 ![Login](https://github.com/Yusuf2668/NortwindFrontEnd/blob/main/Pictures/Login.png?raw=true)
 
