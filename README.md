@@ -1,6 +1,9 @@
 # Northwind
 
-![Ana Sayfa](https://github.com/Yusuf2668/NortwindFrontEnd/blob/main/Pictures/Login.png?raw=true)
+https://github.com/Yusuf2668/NortwindFrontEnd/blob/main/Pictures/register.png
+
+Login Page
+![Login](https://github.com/Yusuf2668/NortwindFrontEnd/blob/main/Pictures/Login.png?raw=true)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
