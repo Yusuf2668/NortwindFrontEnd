@@ -12,8 +12,8 @@
      <div class="d-flex text-body-secondary pt-3">
       <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
         <div class="d-flex justify-content-between">
-          <h5 class="text-gray-dark"><span class="badge text-bg-secondary" >1</span> Full Name</h5>
-          <button type="button" class="btn btn-outline-danger">Sil</button>
+          <h5 class="text-gray-dark"><span class="badge text-bg-secondary" >1</span>{{cartItem.product.productName}} </h5>
+          <button type="button" class="btn btn-outline-danger" (click)="removeFromCart(cartItem.product)">Sil</button>
         </div>
         <h6 class="d-block">kategorisi</h6>
       </div>
